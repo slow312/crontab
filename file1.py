@@ -14,7 +14,6 @@ df.to_csv('crontab/data/data.csv')
 
 # create a new file in the current working directory
 cwd = os.getcwd()
-print(cwd)
 now = time.time()
 nowStr = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime(now))
 
