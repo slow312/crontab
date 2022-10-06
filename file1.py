@@ -18,5 +18,5 @@ print(cwd)
 now = time.time()
 nowStr = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime(now))
 
-with open(cwd + '/data/file1_' + nowStr + '.txt', 'w') as f:
+with open(cwd + '/file1_' + nowStr + '.txt', 'w') as f:
     f.write(str(df))
